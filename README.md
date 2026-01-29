@@ -22,7 +22,7 @@ The code here is meant for learning and experimentation, not production use.
 - Django  
 - Database (database | In learnning phase)
 - HTML / CSS  
-- TaiwindCSS
+- TailwindCSS
 
 ---
 

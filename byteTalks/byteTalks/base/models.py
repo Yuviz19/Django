@@ -16,7 +16,10 @@ class Room(models.Model):
     updated = models.DateTimeField(auto_now=True) # takes a timestamp everytime touched
     created = models.DateTimeField(auto_now_add=True) # create a timestamp when it was created
 
-    def __str__(self): 
+    class Meta:
+        ordering = ['-updated','-created']
+
+    def __str__(self):
         return self.name
     
 class Message(models.Model):
